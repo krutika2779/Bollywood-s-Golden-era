@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    
+    background-image: url('file:///C:/Users/PCC/Desktop/bolly/Image/songs1.jpg');
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: scroll;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header{
+    position: sticky;
+    background: gray;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    
+}
+
+header .logo{
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+header ul li a:hover , 
+header ul li a.active
+{
+    background: silver;
+}
+h2{
+    color: rgb(167, 124, 31);
+    font-size: 50px;
+}
+h1{
+    color: lavenderblush;
+}
+p{
+    color: white;
+    font-size: 23px;
+    font-style: italic;
+    text-align: justify;
+    line-break: auto;
+    word-spacing: 0.2em;
+}
+em{
+    font-style: italic;
+}

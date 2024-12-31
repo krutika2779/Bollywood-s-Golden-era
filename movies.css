@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url('file:///C:/Users/PCC/Desktop/bolly/Image/IMG-20230601-WA0009.jpg');
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+
+
+header{
+    position: sticky;
+    background: gray;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    
+}
+header .logo{
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+header ul li a:hover , 
+header ul li a.active
+{
+    background: silver;
+}
+
+h2{
+    font-size: 50px;
+    color: rgb(21, 139, 114);
+
+}
+strong{
+    font-size: xx-large;
+    color: lavender;
+}
+
+ 
+
+p{
+    color: white;
+    line-break: auto;
+    word-spacing: 0.2em;
+    font-size: large;
+}
+

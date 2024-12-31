@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="login1.css">
+    </head>
+    <body>
+      
+      
+          <section>
+            <center>
+                <div class="form-box">
+                  
+                  <br>
+                  <div class="imgcontainer">
+                    <h1>Login Here</h1>
+                    <br>
+                    <img src="file:///C:/Users/PCC/Desktop/bolly/Image/logo.jpeg" alt="Avatar" class="avatar">
+                    <br><br>
+                  
+                    <lable><b>Email :</b></lable><br>
+                    <input type="text" id="Email" placeholder="Email" ></input><br>
+                    <lable><b>Password :</b></lable> <br>
+                    <input type="Password" id="Password" placeholder="Password"></input><br>
+                    <button type="Submit" name="Submit" onclick="vaildate()" > 
+                        <a href="about.html" style="color: white;"></a>Login
+                    </button>
+
+                  </div>
+                  <br><br><br>
+                </div>
+                <div class="form-group">
+                  <p>Don't have an account? <a href="registration.html">Register here</a></p>
+                </div>
+            </center>
+          </section>
+        
+
+        <script>
+            function vaildate()
+            {
+              var Email=document.getElementById("Email").value;
+              var Password=document.getElementById("Password").value;
+            
+              if(Email=="krutika@gmail.com" && Password=="patil")
+            {
+            
+              window.location="about.html";
+              return false;
+             
+             
+            }
+            else
+            {
+               alert("Plz Enter Correct Email & Password");
+               document.getElementById("Email").disabled =true;
+               document.getElementById("Password").disabled =true;
+            }
+            }
+            
+            </script>
+
+    </body>
+
+    
+</html>
+
